@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  min-width: 320px;
+  background-color: #eaeaea;
+}
+a {
+  outline: none;
+}
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100%;
+}
+
+.nw-header {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  align-items: center;
+}
+.nw-header .nw-container {
+  justify-content: space-between;
+}
+.nw-logo {
+}
+nav {
+  float: right;
+}
+nav ul {
+  display: flex;
+  font-size: 30px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #666666;
+  text-decoration: none;
+  padding-right: 80px;
+}
+nav:hover {
+  text-decoration: underline;
+}
+nav img {
+  position: absolute;
+  top: 115px;
+}
+/*  */
+.menu-toggle {
+  float: right;
+  display: none;
+  font-size: 24px;
+}
+/*  */
+@media (max-width: 1630px) {
+}
+@media (max-width: 1500px) {
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1199px) {
+  header {
+    padding: 0 20px;
+  }
+  .menu-toggle {
+    display: block;
+    font-size: 34px;
+    top: 110px;
+    position: absolute;
+    right: 110px;
+  }
+  header nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: -100%;
+  }
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+}
