@@ -1,4 +1,3 @@
-<section>
     <div class="nw-masthead">
         <div class="nw-container">
             <div class="nw-masthead__wrapper">
@@ -24,4 +23,3 @@
             </div>
         </div>
     </div>
-</section>
